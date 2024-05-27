@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #f9fafc;
+  background-color: #000000;
 }
 :root{
   --red:#d63a25;
@@ -24,34 +24,48 @@ body {
   justify-content: space-between;
   padding: 0px 10%;
 }
+
+.home2 {
+  height: 50rem;
+  width: 100%;
+  background-color: white;
+}
+
+
 .home-text{
   max-width: 37rem;
 }
 
 .home-text .text-h1{
-  color: black;
+  color: #ffffff;
   font-size: 4rem;
-  margin-bottom: 1rem;
   line-height: 4rem;
 }
+
 .home-text p{
-  color: var(--dark);
+  margin-top: 3rem;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
   margin-bottom: 4rem;
 }
 .home-btn{
   padding: 15px 45px;
-  background:rgb(32, 32, 32);
-  color: white;
+  background:rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   border-radius: 10px;
   font-weight: 700;
   transition: all 0.5s;
 }
 .home-btn:hover{
-  background: #7c7c7c;
+  background: #f700ff;
+  color: white;
 }
 .home-img img{
-  width: 100%;
+  width: 50rem;
 }
+
+
+
 
 @media (max-width:785px) {
 
