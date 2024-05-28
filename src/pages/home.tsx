@@ -1,5 +1,7 @@
 import Navbar from '../components/navbar/navbar'
 import '../index.css'
+import React, { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 
 function HomePage() {
 
@@ -18,8 +20,24 @@ function HomePage() {
       </section>
 
       <section className="home2">
-        <h1>OI</h1>
+        
+      <div className="container">
+        <div className="card1">
+            <div className="card-body">
+                <h1 className="textcard1">Sharpbank</h1>
+                
+                <a href="#" className="btn2">Faça sua Conta</a>
+            </div>
+        </div>
 
+        <div className="card2">
+            <div className="card-body">
+                <h1 className="textcard2">Credit Card</h1>
+                <img className="imgcard2" src="https://cdn.dribbble.com/userupload/7357224/file/original-02fbbd3cc8d9d871b176360e7e7de371.png?resize=1024x771" alt="Nubank logo"></img>
+                <a href="#" className="btn1">Solicitar cartão</a>
+            </div>
+        </div>
+    </div>
 
       </section>
     </>
