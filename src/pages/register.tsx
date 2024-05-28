@@ -22,11 +22,11 @@ function RegisterPage() {
         <input className="input" type="text" id="cpf" name="cpf" required></input>
         </div>
         <div className="single-input">
-        <label htmlFor="nome">Nome completo</label>
+        <label htmlFor="nome">Full Name</label>
         <input className="input" type="text" id="nome" name="nome" required></input>
         </div>
         <div className='single-input'>
-        <label htmlFor="celular">Celular</label>
+        <label htmlFor="celular">Phone-Number</label>
         <input className="input" type="tel" id="celular" name="celular" required></input>
         </div>
         <div className="single-input">
@@ -34,7 +34,7 @@ function RegisterPage() {
         <input className="input" type="email" id="email" name="email" required></input>
         </div>
         <div className='singleinput'>
-        <label htmlFor="email-confirm">Confirmação de e-mail</label>
+        <label htmlFor="email-confirm">E-mail Confirm</label>
         <input className="input" type="email" id="email_confirmacao" name="email_confirmacao" required></input>
         </div>
         <div className='single-input'>
@@ -52,12 +52,12 @@ function RegisterPage() {
 
 <div className="checkbox-wpp">
 <input className="inputcheck" type="checkbox" id="aceito_comunicacao" name="aceito_comunicacao"></input>
-        <label htmlFor="aceito_comunicacao">Aceito receber comunicações do Sharpbank por WhatsApp.</label>
+        <label htmlFor="aceito_comunicacao">I agree to receive communications from Sharpbank via WhatsApp.</label>
        
         </div>
         <div className="checkbox-condiction">
         <input className="inputcheck" type="checkbox" id="aceite_dados" name="aceite_dados" required></input>
-        <label htmlFor="aceite_dados">Li, estou ciente das condições de tratamento dos meus dados pessoais e dou meu consentimento, quando aplicável, conforme descrito nesta Política de Privacidade.</label>
+        <label htmlFor="aceite_dados">I have read, I am aware of the conditions for processing my personal data and I give my consent, when applicable, as described in this Privacy Policy.</label>
         </div>
   
         <button type="submit">Enviar</button>
