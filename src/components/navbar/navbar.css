@@ -1,11 +1,19 @@
+@font-face {
+  font-family: 'Graphik-Medium';
+  src: local('Graphik-Medium'), url(./fonts/Graphik-Medium-Trial.otf) format('truetype');
+}
+
+
 
 /* Add a black background color to the top navigation */
 .topnav {
 
     box-shadow: black 1px;
-    background-color: #f9fafc;
+    background-color: #000000;
     overflow: hidden;
 }
+
+
 
 .topnav-right {
     margin-right:10rem;
@@ -14,12 +22,13 @@
 /* Style the links inside the navigation bar */
 
 .SignUp {
-    border-radius: 1.2rem;
+  font-family: "Graphik-Medium";
+    border-radius: 10px;
     margin-left: 1rem;
-    background-color: #f9fafc;
+    background-color: #000000;
   float: left;
-  font-weight: bold;
-  color: #000000;
+  border: 2px solid #7900ca;  
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -27,9 +36,12 @@
 }
 
 .SignIn {
+  font-family: "Graphik-Medium";
+  
+  background-color: #7900ca;
     border-radius: 10px;
     margin-left: 1rem;
-    background-color: #1b1b1b;
+    
   float: left;
   color: #ffffff;
   text-align: center;
@@ -43,20 +55,16 @@
 /* Change the color of links on hover */
 .SignUp:hover {
     transition: 0.3s;
-    background-color: #a3a3a3;
+    background-color: #b800f0;
     color: white;
 }
 
 .SignIn:hover {
     transition: 0.3s;
-    background-color: #686868;
+    background-color: #b800f0;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
+
 
 /* Right-aligned section inside the top navigation */
 .topnav-right {

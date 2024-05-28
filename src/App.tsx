@@ -8,9 +8,9 @@ import RegisterPage from "./pages/register";
 
 
 
-function App() {
-  
 
+
+function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -20,7 +20,9 @@ function App() {
         
 
       </Routes>
+      
     </BrowserRouter>
+    
   );
 }
 
