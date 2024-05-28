@@ -1,15 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import './login.css'
 
+function LoginPage() {
 
-function LoginPage () {
+    return (
 
-return (
+        <>
+        <h1>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
 
-<>
-<h1>TESTE</h1>
-</>
-)
+    </>
+    )
 }
 
 export default LoginPage

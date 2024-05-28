@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Graphik-Medium';
+    src: local('Graphik-Medium'), url(./fonts/Graphik-Medium-Trial.otf) format('truetype');
+  }
+
+
+
+.section3 {
+    background-color: white;
+    height: 58.5rem;
+    display: flex;
+    flex-direction:row;
+}
+.Conteiner {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.formulariodiv {
+    width: 50%;
+}
+
+
+.formulario { 
+
+    padding: 20px;
+    width: 50%; 
+    margin: auto;
+    margin-top: 5rem;
+    
+    
+}
+
+
+
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario input[type="password"]
+ {
+    outline: 0;
+    font-size: 16px;
+    color: rgb(80,80,80);
+    transition: 0.5s ease-in-out;
+    border: 0;
+    border-bottom: 1px solid rgb(200,200,200);
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+.formulario input:focus,
+.formulario input:valid {
+    border-bottom: 1px solid rgb(119, 0, 255);
+}
+
+
+.formulario input[type="checkbox"] {
+    margin-right: 10px;
+    background-color: #ff00d4;
+}
+
+.formulario button[type="submit"] {
+    margin-top: 40px;
+    padding: 20px 90px;
+    border-radius: 10px;
+    background-color: #8c00ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.formulario button[type="submit"]:hover {
+    transition: 0.5s;
+    margin-top: 40px;
+    padding: 20px 90px;
+    border-radius: 10px;
+    background-color: #e100ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.checkbox-wpp {
+    margin-top: 30px;
+    ;
+    font-family: "Graphik-Medium";
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.checkbox-condiction {
+    
+    margin-top: 30px;
+    ;
+    font-family: "Graphik-Medium";
+    flex-direction: row;
+    font-size: 18px;
+}
+
+
+
+.cardRegister {
+    
+width: 50%;
+    background-color: #e7e7e7;
+}
+
+.imgcard3 {
+    margin-top: 5rem;
+    width: 50rem;
+}
+
+.textcard3 {
+    font-family: "Graphik-Medium";
+    font-weight: 550;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    font-size: 2.5rem;
+      color: #000000;
+
+    }
+
+    @media (max-width:1200px) {
+
+        .textcard3 {
+            font-family: "Graphik-Medium";
+            font-weight: 550;
+            margin-top: 3rem;
+            margin-left: 3rem;
+            font-size: 2rem;
+              color: #000000;
+        
+            }
+        
+        .imgcard3 {
+            margin-top: 5rem;
+            width: 30rem;
+        }
+            }
+
+
+
+
+    @media (max-width:980px) {
+
+
+        
+.imgcard3 {
+    margin-top: 5rem;
+    width: 20rem;
+}
+    }
