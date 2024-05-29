@@ -126,7 +126,23 @@ width: 50%;
 
     }
 
-    @media (max-width:1200px) {
+    @media (max-width:1600px) {
+        .imgcard3 {
+            margin-top: 5rem;
+            width: 45rem;
+        }
+
+    }
+
+
+    @media (max-width:1500px) {
+
+        .section3 {
+            background-color: white;
+            height: 100%;
+            display: flex;
+            flex-direction:row;
+        }
 
         .Conteiner {
             display: flex;
@@ -136,31 +152,33 @@ width: 50%;
         .cardRegister {
             display: flex;
     flex-direction: row;
-    margin-top: 4rem;
-            width: 120%;
+margin-bottom: 1rem;
+            width: 100%;
                 background-color: #ffffff;
             }
 
 
         .textcard3 {
             font-family: "Graphik-Medium";
-            font-weight: 550;
-            font-size: 2.5rem;
+            font-weight: 200;
+            font-size: 1.5rem;
               color: #000000;}
               .formulario { 
 
                 padding: 20px;
                 width: 50%; 
                 margin: auto;
-                margin-top: 2rem;
-                
-                
             }
 
         .formulariodiv {
             flex-direction: column;
             display: flex;
             width: 100%;
+        }
+
+        .checkbox-wpp, .checkbox-condiction {
+            margin-top: 10px;
+            font-size: 15px;
         }
 
 
