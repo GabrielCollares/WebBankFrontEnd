@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Graphik-Medium';
     src: local('Graphik-Medium'), url(./fonts/Graphik-Medium-Trial.otf) format('truetype');
-  }
+}
 
 
 
@@ -9,8 +9,9 @@
     background-color: white;
     height: 58.5rem;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
 }
+
 .Conteiner {
     background-color: #ffffff;
     display: flex;
@@ -24,14 +25,14 @@
 }
 
 
-.formulario { 
+.formulario {
 
     padding: 20px;
-    width: 50%; 
+    width: 50%;
     margin: auto;
     margin-top: 5rem;
-    
-    
+
+
 }
 
 
@@ -40,18 +41,18 @@
 .formulario input[type="text"],
 .formulario input[type="email"],
 .formulario input[type="tel"],
-.formulario input[type="password"]
- {
+.formulario input[type="password"] {
     outline: 0;
     font-size: 16px;
-    color: rgb(80,80,80);
+    color: rgb(80, 80, 80);
     transition: 0.5s ease-in-out;
     border: 0;
-    border-bottom: 1px solid rgb(200,200,200);
+    border-bottom: 1px solid rgb(200, 200, 200);
     width: 100%;
     padding: 8px;
     margin-bottom: 15px;
 }
+
 .formulario input:focus,
 .formulario input:valid {
     border-bottom: 1px solid rgb(119, 0, 255);
@@ -72,6 +73,7 @@
     border: none;
     cursor: pointer;
 }
+
 .formulario button[type="submit"]:hover {
     transition: 0.5s;
     margin-top: 40px;
@@ -95,7 +97,7 @@
 }
 
 .checkbox-condiction {
-    
+
     margin-top: 30px;
     ;
     font-family: "Graphik-Medium";
@@ -106,8 +108,8 @@
 
 
 .cardRegister {
-    
-width: 50%;
+
+    width: 50%;
     background-color: #e7e7e7;
 }
 
@@ -122,72 +124,115 @@ width: 50%;
     margin-top: 3rem;
     margin-left: 3rem;
     font-size: 2.5rem;
-      color: #000000;
+    color: #000000;
+
+}
+
+@media (max-width:1600px) {
+    .imgcard3 {
+        margin-top: 5rem;
+        width: 45rem;
+    }
+
+}
+
+
+@media (max-width:1500px) {
+
+    .section3 {
+        background-color: white;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Conteiner {
+        display: flex;
+        flex-direction: column;
 
     }
 
-    @media (max-width:1600px) {
-        .imgcard3 {
-            margin-top: 5rem;
-            width: 45rem;
-        }
-
+    .cardRegister {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1rem;
+        width: 100%;
+        background-color: #ffffff;
     }
 
 
-    @media (max-width:1500px) {
+    .textcard3 {
+        font-family: "Graphik-Medium";
+        font-weight: 200;
+        font-size: 1.5rem;
+        color: #000000;
+    }
 
-        .section3 {
-            background-color: white;
-            height: 100%;
-            display: flex;
-            flex-direction:row;
-        }
+    .formulario {
 
-        .Conteiner {
-            display: flex;
-            flex-direction: column;
+        padding: 20px;
+        width: 50%;
+        margin: auto;
+    }
 
-        }
-        .cardRegister {
-            display: flex;
-    flex-direction: row;
-margin-bottom: 1rem;
-            width: 100%;
-                background-color: #ffffff;
-            }
+    .formulariodiv {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+    }
 
-
-        .textcard3 {
-            font-family: "Graphik-Medium";
-            font-weight: 200;
-            font-size: 1.5rem;
-              color: #000000;}
-              .formulario { 
-
-                padding: 20px;
-                width: 50%; 
-                margin: auto;
-            }
-
-        .formulariodiv {
-            flex-direction: column;
-            display: flex;
-            width: 100%;
-        }
-
-        .checkbox-wpp, .checkbox-condiction {
-            margin-top: 10px;
-            font-size: 15px;
-        }
+    .checkbox-wpp,
+    .checkbox-condiction {
+        margin-top: 10px;
+        font-size: 15px;
+    }
 
 
-        .imgcard3 {
-            display: none;
-            width: 0;
-        }
+    .imgcard3 {
+        display: none;
+        width: 0;
+    }
+}
 
-        
- 
-            }
+@media (max-width: 600px) {
 
+    .formulario {
+
+        padding: 20px;
+        width: 100%;
+        margin: auto;
+        margin-top: 5rem;
+    
+    
+    }
+
+    .formulariodiv {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+    }
+
+    .cardRegister {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: #ffffff;
+    }
+
+
+    .formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario input[type="password"] {
+    outline: 0;
+    font-size: 16px;
+    color: rgb(80, 80, 80);
+    transition: 0.5s ease-in-out;
+    border: 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+}
