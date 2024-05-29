@@ -53,8 +53,14 @@
     margin-bottom: 15px;
 }
 
-.formulario input:focus,
-.formulario input:valid {
+.formulario input[type="text"]:valid,
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:valid,
+.formulario input[type="email"]:focus,
+.formulario input[type="tel"]:valid,
+.formulario input[type="tel"]:focus,
+.formulario input[type="password"]:valid,
+.formulario input[type="password"]:focus {
     border-bottom: 1px solid rgb(119, 0, 255);
 }
 
