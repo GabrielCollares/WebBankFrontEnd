@@ -17,31 +17,31 @@ function RegisterPage() {
         <div className='formulariodiv'>
     <form className="formulario">
 
-        <div className="single-input">
+        <div className="single-input ">
         <label htmlFor="cpf">CPF</label>
         <input className="input" type="text" id="cpf" name="cpf" required></input>
         </div>
-        <div className="single-input">
+        <div className="single-input ">
         <label htmlFor="nome">Full Name</label>
         <input className="input" type="text" id="nome" name="nome" required></input>
         </div>
-        <div className='single-input'>
+        <div className='single-input '>
         <label htmlFor="celular">Phone-Number</label>
         <input className="input" type="tel" id="celular" name="celular" required></input>
         </div>
-        <div className="single-input">
+        <div className="single-input ">
         <label htmlFor="email">E-mail</label>
         <input className="input" type="email" id="email" name="email" required></input>
         </div>
-        <div className='singleinput'>
+        <div className='singleinput '>
         <label htmlFor="email-confirm">E-mail Confirm</label>
         <input className="input" type="email" id="email_confirmacao" name="email_confirmacao" required></input>
         </div>
-        <div className='single-input'>
+        <div className='single-input '>
         <label htmlFor="password">Password</label>
         <input className="input" type="password" id="password" name="password" required></input>
         </div>
-        <div className='single-input'>
+        <div className='single-input ' >
         <label htmlFor="">Password Confirm</label>
         <input className="input" type="password" id="confirm_password" name="confirm_password" required></input>
         </div>
@@ -59,8 +59,9 @@ function RegisterPage() {
         <input className="inputcheck" type="checkbox" id="aceite_dados" name="aceite_dados" required></input>
         <label htmlFor="aceite_dados">I have read, I am aware of the conditions for processing my personal data and I give my consent, when applicable, as described in this Privacy Policy.</label>
         </div>
-  
-        <button type="submit">Enviar</button>
+  <form action='/login'>
+        <button type="submit" >Enviar</button>
+        </form>
     </form>
     </div>
             </div>

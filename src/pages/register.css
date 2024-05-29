@@ -10,9 +10,11 @@
     height: 58.5rem;
     display: flex;
     flex-direction: row;
+    
 }
 
 .Conteiner {
+    
     background-color: #ffffff;
     display: flex;
     justify-content: center;
@@ -21,12 +23,13 @@
 }
 
 .formulariodiv {
+
     width: 50%;
 }
 
 
 .formulario {
-
+ 
     padding: 20px;
     width: 50%;
     margin: auto;
@@ -63,6 +66,7 @@
 .formulario input[type="password"]:focus {
     border-bottom: 1px solid rgb(119, 0, 255);
 }
+
 
 
 .formulario input[type="checkbox"] {
@@ -113,6 +117,8 @@
 
 
 
+
+
 .cardRegister {
 
     width: 50%;
@@ -133,6 +139,7 @@
     color: #000000;
 
 }
+
 
 @media (max-width:1600px) {
     .imgcard3 {
@@ -242,3 +249,5 @@
 }
 
 }
+
+  
