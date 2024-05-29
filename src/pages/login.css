@@ -1,0 +1,171 @@
+.section4 {
+    width: 100%;
+}
+
+
+.LoginFORM {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+    padding-top: 15rem;
+    width: 450px;
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 1rem;
+  }
+  
+  ::placeholder {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+
+  
+  .form button {
+    align-self: flex-end;
+  }
+
+  .form input[type="radio"] {
+    gap: 30px;
+  }
+  .flex-column {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+  }
+
+  
+  .flex-column > label {
+    padding-top: 30px;
+    color: #151717;
+    font-weight: 600;
+  }
+  
+  .inputForm {
+    border: 1.5px solid #ecedec;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .input2 {
+    margin-left: 15px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    
+  }
+  
+  .input2:focus {
+    outline: none;
+  }
+  
+  .inputForm:focus-within {
+    border: 1.5px solid #9900ff;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .flex-row > div > label {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+  }
+  
+  .span {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-left: 5px;
+    color: #7700ff;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .span:hover {
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-left: 5px;
+    color: #cc00ff;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+
+  .remember {
+    gap: 10px;
+  }
+
+  .remember1 {
+padding-left: 10px;
+  }
+  
+  .button-submit {
+    margin: 20px 0 10px 0;
+    background-color: #151717;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .button-submit:hover {
+    transition: 0.5s;
+    margin: 20px 0 10px 0;
+    background-color: #7700ff;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .p {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+
+  .cardLogin {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0%;
+  }
+
+
+ 
+  
+
+  
+      
