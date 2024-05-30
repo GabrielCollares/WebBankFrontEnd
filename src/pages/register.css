@@ -6,7 +6,7 @@
 
 
 .section3 {
-    background-color: #181414;
+    background-color: #121212;
     height: 58.5rem;
     display: flex;
     flex-direction: row;
@@ -15,7 +15,7 @@
 
 .Conteiner {
     
-    background-color: #181414;
+    background-color: #121212;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -47,7 +47,7 @@
 .formulario input[type="email"],
 .formulario input[type="tel"],
 .formulario input[type="password"] {
-    background-color: #181414;
+    background-color: #121212;
     outline: 0;
     font-size: 16px;
     color: rgb(255, 255, 255);
@@ -157,7 +157,7 @@ color: white;
 @media (max-width:1500px) {
 
     .section3 {
-        background-color: #181414;
+        background-color: #121212;
         height: 100%;
         display: flex;
         flex-direction: row;
@@ -174,7 +174,7 @@ color: white;
         flex-direction: row;
         margin-bottom: 1rem;
         width: 100%;
-        background-color: #181414;
+        background-color: #121212;
     }
 
 
@@ -234,7 +234,7 @@ color: white;
         display: flex;
         flex-direction: row;
         width: 100%;
-        background-color: #181414;
+        background-color: #121212;
     }
 
 
