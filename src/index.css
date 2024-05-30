@@ -2,6 +2,10 @@
   font-family: 'Graphik-Medium';
   src: local('Graphik-Medium'), url(./fonts/Graphik-Medium-Trial.otf) format('truetype');
 }
+@font-face {
+  font-family: 'Graphik-Light';
+  src: local('Graphik-Light'), url(./fonts/Graphik-Light-Trial.otf) format('truetype');
+}
 
 
 
@@ -23,7 +27,7 @@
 }
 
 .home{
-  background-color: #000000;
+  background-color: #181414;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -40,19 +44,22 @@
 
 
 .home-text{
-  max-width: 37rem;
+  width: 100%;
 }
 
 .home-text .text-h1{
+  width: 100%;
+  font-family: "Graphik-Light";
+  font-weight: 100px;
   color: #ffffff;
-  font-size: 4rem;
-  line-height: 4rem;
+  font-size: 5rem;
+  
 }
 
 .home-text p{
+  font-family: "Graphik-Light";
   margin-top: 3rem;
   color: rgb(255, 255, 255);
-  font-weight: bold;
   margin-bottom: 4rem;
 }
 .home-btn{
@@ -61,6 +68,7 @@
   color: rgb(0, 0, 0);
   border-radius: 10px;
   font-weight: 700;
+  margin-left: 1rem;
   transition: all 0.5s;
 }
 .home-btn:hover{
@@ -68,7 +76,9 @@
   color: white;
 }
 .home-img img{
-  width: 50rem;
+  width: 40rem;
+  border-radius: 50px;
+  margin-left: 5rem;
 }
 /*=========================================================*/
 .container {

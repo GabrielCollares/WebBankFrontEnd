@@ -7,10 +7,10 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-
     box-shadow: black 1px;
-    background-color: #000000;
+    background-color: #181414;
     overflow: hidden;
+    padding-bottom: 10px;
 }
 
 
@@ -25,9 +25,9 @@
   font-family: "Graphik-Medium";
     border-radius: 10px;
     margin-left: 1rem;
-    background-color: #000000;
+    background-color: #181414;
   float: left;
-  border: 2px solid #7900ca;  
+  border: 2px solid #ffffff;  
   color: #ffffff;
   text-align: center;
   padding: 14px 16px;
@@ -38,12 +38,12 @@
 .SignIn {
   font-family: "Graphik-Medium";
   
-  background-color: #7900ca;
+  background-color: #ffffff;
     border-radius: 10px;
     margin-left: 1rem;
     
   float: left;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;

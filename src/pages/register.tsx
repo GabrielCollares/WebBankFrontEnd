@@ -12,7 +12,7 @@ function RegisterPage() {
             <div className="cardRegister">
             <h1 className="textcard3">Fill in the fields below<br></br> to request  your Account and <br></br>Credit Card</h1>
                 
-                <img className="imgcard3" src="https://cdn.dribbble.com/userupload/4106610/file/original-eba89bf53a826987d14538e9a8fe3bde.png?resize=1024x768" ></img>
+                <img className="imgcard3" src="https://cdn.dribbble.com/userupload/8843925/file/original-78858af4099a6a76e10920d4067caf99.png?resize=1024x768" ></img>
                 </div>
         <div className='formulariodiv'>
     <form className="formulario">
@@ -25,23 +25,23 @@ function RegisterPage() {
         <label htmlFor="nome">Full Name</label>
         <input className="input" type="text" id="nome" name="nome" required></input>
         </div>
-        <div className='single-input '>
+        <div className='single-input'>
         <label htmlFor="celular">Phone-Number</label>
         <input className="input" type="tel" id="celular" name="celular" required></input>
         </div>
-        <div className="single-input ">
+        <div className="single-input">
         <label htmlFor="email">E-mail</label>
         <input className="input" type="email" id="email" name="email" required></input>
         </div>
-        <div className='singleinput '>
+        <div className='single-input'>
         <label htmlFor="email-confirm">E-mail Confirm</label>
         <input className="input" type="email" id="email_confirmacao" name="email_confirmacao" required></input>
         </div>
-        <div className='single-input '>
+        <div className='single-input'>
         <label htmlFor="password">Password</label>
         <input className="input" type="password" id="password" name="password" required></input>
         </div>
-        <div className='single-input ' >
+        <div className='single-input' >
         <label htmlFor="">Password Confirm</label>
         <input className="input" type="password" id="confirm_password" name="confirm_password" required></input>
         </div>

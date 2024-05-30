@@ -5,6 +5,7 @@
 
 
 body {
+  background-color: #181414;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -50,10 +51,10 @@ body {
 
 .form input[type="email"],
 .form input[type="password"] {
-
+background-color: #181414;
   outline: 0;
   font-size: 16px;
-  color: rgb(80, 80, 80);
+  color: rgb(255, 255, 255);
   transition: 0.5s ease-in-out;
   border: 0;
   border-bottom: 1px solid rgb(200, 200, 200);
@@ -66,7 +67,7 @@ body {
 }
 .form input[type="email"]:focus,
 .form input[type="password"]:focus {
-    border-bottom: 1px solid rgb(119, 0, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 
@@ -75,7 +76,7 @@ body {
   flex: 1;
   background-color: black;
   transition: 1s;
-  background-image: url("https://cdn.dribbble.com/users/13428049/screenshots/19922663/media/89bc4843ed9bb08453b8e82b05960684.png?resize=800x600&vertical=center ");
+  background-image: url("https://designerapp.officeapps.live.com/designerapp/document.ashx?path=/eef05933-bd97-4d3c-aa17-01dea5c381e0/DallEGeneratedImages/dalle-6610dda0-5d68-4642-8042-439bb2f322880251685266652263675600.jpg&dcHint=BrazilSouth&fileToken=60f0c532-13f7-4c43-a65d-d3412f9d31e7");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -83,14 +84,14 @@ body {
 
 .header > h2 {
   margin: 0;
-  color: #313131;
+  color: #ffffff;
 }
 
 .header > h4 {
   margin-top: 10px;
   font-weight: normal;
   font-size: 15px;
-  color: rgba(8, 8, 8, 0.527);
+  color: rgba(255, 255, 255, 0.527);
 }
 
 
@@ -104,12 +105,13 @@ body {
 
 .form > p > a {
 
-  color: #000;
+  color: #ffffff;
   font-size: 14px;
 }
 
 .form > p > a:hover {
-  color: #7700ff;
+  transition: 0.5s;
+  color: #7a797a;
   font-size: 14px;
 }
 
@@ -133,10 +135,10 @@ body {
   width: 100%;
   padding: 12px 10px;
   border: 0;
-  background-color: #9900ff;
+  background-color: #ffffff;
   border-radius: 3px;
   margin-top: 10px;
-  color: #fff;
+  color: #181414;
   letter-spacing: 1px;
   font-family: 'Rubik', sans-serif;
 }
@@ -146,7 +148,7 @@ body {
   
   padding: 12px 10px;
   border: 0;
-  background-color: #ea00ff;
+  background-color: #4c4c4d;
   border-radius: 3px;
   margin-top: 10px;
   color: #fff;

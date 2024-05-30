@@ -10,12 +10,13 @@ function HomePage() {
       <Navbar />
       <section className="home">
         <div className="home-text">
-          <h1 className="text-h1">Your Financial Future, Right at Your Fingertips.</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod error veniam in voluptatem magni quisquam</p>
+          <h1 className="text-h1">Your Financial Future,<br /> Right at Your Fingertips.</h1>
+          <p>Your trusted partner, providing innovative and secure digital banking solutions for your business to thrive.</p>
+          <a href="#" className="home-btn">Get it now</a>
           <a href="#" className="home-btn">Get it now</a>
         </div>
         <div className="home-img">
-          <img src="https://cdn.dribbble.com/users/697179/screenshots/17078664/media/e6651a82c7867d2a977a29c42a65fe9b.png?resize=1000x750&vertical=center" alt=""></img>
+          <img src="https://designerapp.officeapps.live.com/designerapp/document.ashx?path=/eef05933-bd97-4d3c-aa17-01dea5c381e0/DallEGeneratedImages/dalle-914ec1f0-caac-42b0-bfc4-2dd9d8eb28ea0251685272853636570200.jpg&dcHint=BrazilSouth&fileToken=60f0c532-13f7-4c43-a65d-d3412f9d31e7" alt=""></img>
         </div>
       </section>
 
