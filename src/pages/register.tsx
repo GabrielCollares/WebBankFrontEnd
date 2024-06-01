@@ -1,5 +1,6 @@
 
 import './register.css'
+import img1 from "../assets/Designer (1).jpeg"
 
 function RegisterPage() {
 
@@ -11,7 +12,7 @@ function RegisterPage() {
             <div className="cardRegister">
             <h1 className="textcard3">Fill in the fields below<br></br> to request  your Account and <br></br>Credit Card</h1>
                 
-                <img className="imgcard3" src="https://cdn.dribbble.com/userupload/8843925/file/original-78858af4099a6a76e10920d4067caf99.png?resize=1024x768" ></img>
+                <img className="imgcard3" src={img1} ></img>
                 </div>
         <div className='formulariodiv'>
     <form className="formulario">

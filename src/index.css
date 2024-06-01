@@ -173,14 +173,14 @@ background: -webkit-linear-gradient(45deg, rgba(252, 230, 38, 1) -50% , rgba(243
   width: 100%;
   height: 320px;
  
-  outline: 1px solid black;
+  
 }
 
 .image1 {
   object-fit: cover;
   width: 100%;
   height: 320px;
-  outline: 1px solid black;
+  
 }
 
 .image2 {
@@ -188,7 +188,7 @@ background: -webkit-linear-gradient(45deg, rgba(252, 230, 38, 1) -50% , rgba(243
   width: 100%;
   height: 320px;
  
-  outline: 1px solid black;
+  
 }
 
 .title1 {
@@ -253,7 +253,7 @@ margin-bottom: 2rem;
 
 .home3   {
   width: 100%;
-  height: 70rem;
+  height: 50rem;
   
 }
 
@@ -294,4 +294,111 @@ align-items: center;
 margin-top: 1rem;
   color: #ffffff;
   font-size: 2rem;
+}
+
+/*=============================================================*/
+
+
+.home4 {
+  background-color: #f8f8fa;
+  height: 80rem;
+}
+
+.CONTEINER-home4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-home4 {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+}
+
+.h1-home4 {
+  
+  font-family: "Graphik-Thin";
+  font-size: 4rem;
+}
+
+.content1 {
+  padding: 1.1rem;
+}
+
+.card-home4 { 
+  max-width: 500px;
+  border-radius: 0.5rem;
+  background-color: #f0f0f1;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid transparent;
+}
+
+.desc1 {
+  font-family: "Graphik-Light";
+  margin-top: 0.5rem;
+  color: #242424;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+
+.title5 {
+  font-family: "Graphik-Light";
+  color: #242424;
+  font-size: 2rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.action1 {
+  font-family: "Graphik-Medium";
+  display: inline-flex;
+  margin-top: 1rem;
+  color: #fafafa;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: #242424;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.action1 span {
+  transition: .3s ease;
+}
+
+.action1:hover span {
+  transform: translateX(4px);
+  background-color: #242424;
+}
+
+.footer {
+margin-top: 20rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background: #242424;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+
+@media (max-width: 1500px) {
+  
+  .home-img img{
+    display: none;
+  }
+
 }

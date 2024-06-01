@@ -1,5 +1,7 @@
 import Navbar from '../components/navbar/navbar'
 import '../index.css'
+import imgnews from "../assets/document.jpg"
+
 
 
 function HomePage() {
@@ -15,7 +17,7 @@ function HomePage() {
           <a href="#" className="home-btn2">Get your card  </a>
         </div>
         <div className="home-img">
-          <img src="https://designerapp.officeapps.live.com/designerapp/document.ashx?path=/eef05933-bd97-4d3c-aa17-01dea5c381e0/DallEGeneratedImages/dalle-914ec1f0-caac-42b0-bfc4-2dd9d8eb28ea0251685272853636570200.jpg&dcHint=BrazilSouth&fileToken=60f0c532-13f7-4c43-a65d-d3412f9d31e7" alt=""></img>
+          <img src="https://cdn.leonardo.ai/users/aba68ed0-97f6-43c8-a27d-eec56f4ac41d/generations/602bd46c-0e34-4d6c-b58d-7b8ae637edd1/Default_crie_uma_logo_de_um_app_de_banco_virtual_com_dinheiro_0.jpg" alt=""></img>
         </div>
       </section>
 
@@ -110,6 +112,78 @@ For businesses
 <h1 className='h2home3'>World</h1>
 </div>
 
+      </section>
+
+      <section className='home4'>
+        <div className='CONTEINER-home4'>
+        <div className='title-home4'>
+<h1 className='h1-home4'>SharpBank Blog: Education</h1>
+<h1 className='h1-home4'> financial, news and more!</h1>
+</div>
+</div>
+<div className="Cards-all">
+
+      <div className="card-home4">
+ <div className="image2">
+<img className='image2' src="https://cdn.leonardo.ai/users/aba68ed0-97f6-43c8-a27d-eec56f4ac41d/generations/7aad80a7-d60f-46d9-96b0-d53b56f02319/Default_Crie_um_predio_bigtech_em_preto_e_branco_com_uma_logo_3.jpg" alt="" />
+ </div>
+  <div className="content1">
+
+    <a className="action1" href="/register">
+      Macro Review
+      <span aria-hidden="true">
+        →
+      </span>
+
+    </a>
+    <p className="desc1">
+    Stay up to date with what’s happening in the economy with our content
+
+    </p>
+
+  </div>
+</div>
+
+<div className="card-home4">
+ <div className="image1">
+  <img className='image1' src={imgnews} alt="" />
+ </div>
+  <div className="content">
+
+
+
+
+    <a className="action1" href="/register">
+    News
+      <span aria-hidden="true">
+        →
+      </span>
+    </a>
+    <p className="desc1">
+   
+SharpBank records monthly profit for the 2st time
+    </p>
+  </div>
+</div>
+
+<div className="card-home4">
+ <div className="image">
+  <img className="image" src="https://cdn.leonardo.ai/users/aba68ed0-97f6-43c8-a27d-eec56f4ac41d/generations/11c13930-291a-4a9b-b9fa-6649eaae16dc/Default_ameaa_virtual_como_hacker_em_preto_e_branco_com_uma_lo_3.jpg"></img>
+ </div>
+  <div className="content">
+    <a className="action1" href="/register">
+Security
+      <span aria-hidden="true">
+        →
+      </span>
+    </a>
+    <p className="desc1">
+False Central: what you need to know to protect yourself against this scam
+    </p>
+  </div>
+</div>  
+</div>  
+<div className="footer">&copy;<span id="year"> </span><span> SharpBank. All rights reserved.</span></div>
       </section>
     </>
   )
