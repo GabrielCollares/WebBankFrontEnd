@@ -7,10 +7,12 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
+  display: flex;
     box-shadow: black 1px;
     background-color: #121212;
     overflow: hidden;
     padding-bottom: 10px;
+    float: right;
 }
 
 
@@ -70,4 +72,19 @@
 /* Right-aligned section inside the top navigation */
 .topnav-right {
   float: right;
+}
+
+@media (max-width: 480px) {
+  .topnav {
+    justify-content: center;
+    align-items: center;
+    float: none ;
+  }
+
+  .topnav-right {
+    justify-content: center;
+    align-items: center;
+    float: none;
+    margin-right: 1.5rem;
+  }
 }
