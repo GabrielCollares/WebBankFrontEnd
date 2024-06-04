@@ -10,10 +10,6 @@
   font-family: 'Graphik-Thin';
   src: local('Graphik-Thin'), url(./fonts/Graphik-Thin-Trial.otf) format('truetype');
 }
-
-
-
-
 *{
   margin: 0;
   padding: 0;

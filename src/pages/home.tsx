@@ -13,8 +13,8 @@ function HomePage() {
         <div className="home-text">
           <h1 className="text-h1">Your <span className="text-h12">Financial Future,</span><br /> Right at Your Fingertips.</h1>
           <p>Your trusted partner, providing innovative and secure digital banking solutions for your business to thrive.</p>
-          <a href="#" className="home-btn">Create your account</a>
-          <a href="#" className="home-btn2">Get your card  </a>
+          <a href="/register" className="home-btn">Create your account</a>
+          <a href="/credit-card" className="home-btn2">Get your card  </a>
         </div>
         <div className="home-img">
           <img src="https://cdn.leonardo.ai/users/aba68ed0-97f6-43c8-a27d-eec56f4ac41d/generations/602bd46c-0e34-4d6c-b58d-7b8ae637edd1/Default_crie_uma_logo_de_um_app_de_banco_virtual_com_dinheiro_0.jpg" alt=""></img>
