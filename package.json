@@ -10,12 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.7.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",
     "scrollreveal": "^4.0.9"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@types/scrollreveal": "^0.0.11",
