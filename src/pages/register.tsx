@@ -2,7 +2,7 @@
 import './register.css'
 import img1 from "../assets/Designer (1).jpeg"
 import { useState } from 'react'
-import axios, { Axios, AxiosError } from 'axios';
+import axios, { AxiosError } from 'axios';
 
 function RegisterPage() {
 
