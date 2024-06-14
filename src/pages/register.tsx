@@ -24,7 +24,7 @@ const formData = {
 
 try  {
 
-    const response = await axios.post("https://backendwebbank-ar7r.onrender.com/users", formData) 
+    const response = await axios.post("https://backendwebbank-ar7r.onrender.com/users/register", formData) 
     console.log(response.data)
 } catch (error) {
 
